@@ -1,0 +1,3 @@
+rm a.out
+gcc bkem.c testscheme.c -lgmp -lpbc -lm
+./a.out 3 
