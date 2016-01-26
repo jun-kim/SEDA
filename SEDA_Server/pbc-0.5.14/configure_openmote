@@ -1,0 +1,1 @@
+sudo ./configure --host=arm-none-eabi --build=i686-pc-linux-gnu --prefix=/home/user/ CC="arm-none-eabi-gcc -specs=nosys.specs" LD=arm-none-eabi-ld  AR=arm-none-eabi-ar AS=arm-none-eabi-as NM=arm-none-eabi-nm STRIP=arm-none-eabi-strip RANLIB=arm-none-eabi-ranlib OBJDUMP=arm-none-eabi-objdump LDFLAGS=-L/home/user/lib/
