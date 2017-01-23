@@ -1,0 +1,4 @@
+PBC = $(CONTIKI)/pbc-0.5.14
+CFLAGS += -I ./pbc-0.5.14/include/ -I/home/user/include/pbc/
+
+bkem_src = bkem.c memory.c utils.c extend_printf.c symtab_.c pairing.c   param.c darray.c a_param.c curve.c field.c fp_.c fieldquadratic.c random_.c multiz.c naivefp.c montfp.c fastfp.c  fasterfp.c mini-random.c hex-random.c pbc_gmp_app.c
